@@ -1,0 +1,117 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ 
+  background-image: url'(:\Users\san\Downloads\c pic\Kijana mdog\IMG-20240921-WA0062.jpg)';
+  font-family: Arial, sans-serif;
+  color: #0c0c0cf1;
+
+}
+
+/* Header Section */
+header {
+  background-color: #5D2F8E; /* Dark purple */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 250px;
+  border-radius: 20%; /* Circular image */
+  margin-right: 5px;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+h1 {
+  font-size: 24px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #7b3db1; /* Slightly lighter purple */
+}
+
+/* Content Section */
+.content {
+  padding: 20px;
+}
+
+.page {
+  display: none; /* Hide all pages by default */
+}
+
+.page.active {
+  display: block; /* Show the active page */
+}
+
+.dish-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Circular image */
+  margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #444;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
