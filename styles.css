@@ -28,8 +28,8 @@ header {
 }
 
 .profile-image {
-  width: 200px;
-  height: 250px;
+  width: 100px;
+  height: 120px;
   border-radius: 20%; /* Circular image */
   margin-right: 5px;
 }
@@ -40,8 +40,9 @@ header {
 }
 
 .gallery img {
-  width: 100%;
-  max-width: 200px;
+  width: 80%;
+  height: 80%;
+  max-width: 100px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
